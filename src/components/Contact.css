@@ -1,0 +1,47 @@
+.portfolio-contact {
+  align-items: center;
+}
+
+.portfolio-contact h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 2rem auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 18px;
+  display: block;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  align-self: center;
+  max-width: 150px;
+  width: 120px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: white;
+  cursor: pointer;
+}

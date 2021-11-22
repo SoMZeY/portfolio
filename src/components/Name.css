@@ -1,0 +1,32 @@
+.name-section {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-section-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+}
+
+.name-section-list {
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.name-section-occupation {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+}
+
+.name-section-image {
+  align-self: center;
+  width: 164px;
+  height: 164px;
+  border: 3px solid black;
+  border-radius: 50%;
+}

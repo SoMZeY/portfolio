@@ -1,0 +1,21 @@
+.projects {
+  padding: 0px 10em 10px 10em;
+  border-bottom: 1px solid black;
+}
+
+.portfolio-projects h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+.projects-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projects-list-item {
+  flex: 1 1 30em;
+  margin: 10px 10px 10px 10px;
+}
